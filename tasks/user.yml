@@ -1,0 +1,8 @@
+
+- name: Add vagrant user.
+  user: name=vagrant comment="Vagrant User" shell=/bin/bash 
+
+- name: Set vagrant default public key as authorized ssh.
+  authorized_key: 
+        user=vagrant
+        key="https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub"

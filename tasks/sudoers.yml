@@ -1,0 +1,14 @@
+
+- name: Allow vagrant sudo access without password.
+  lineinfile: 
+        dest=/etc/sudoers 
+        state=present 
+        regexp='^vagrant' 
+        line='vagrant     ALL=(ALL)     NOPASSWD: ALL'
+
+- name: Disable requiretty in sudoers.
+  lineinfile:
+        dest=/etc/sudoers
+        state=present
+        regexp='.*requiretty'
+        line='#Defaults requiretty'
