@@ -1,7 +1,7 @@
 Role Name
 =========
 
-Setup machine for use with vagrant
+Setup guest machine for use with vagrant from host machine
 
 Requirements
 ------------

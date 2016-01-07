@@ -1,6 +1,6 @@
 galaxy_info:
   author: thebinary
-  description: 
+  description: Setup guest machine for use with vagrant from host machine
   company: The Binary
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
