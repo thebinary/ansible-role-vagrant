@@ -1,4 +1,4 @@
-Role Name
+ansible-role-vagrant
 =========
 
 Setup guest machine for use with vagrant from host machine
